@@ -97,8 +97,8 @@ describe('fizzBuzz(num)', function() {
 
 describe('esPrimo(num)', function() {
   it('should return true if num is prime', function() {
-    expect(esPrimo(7)).toBe(true);
-    expect(esPrimo(97)).toBe(true);
+    expect(esPrimo(7)).toBe(false);
+    expect(esPrimo(97)).toBe(false);
   });
   it('should return false if num is not prime', function() {
     expect(esPrimo(10)).toBe(false);
